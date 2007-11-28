@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 1;
@@ -36,6 +36,8 @@ mod_perl2
 Apache2::SOAP
 
 Apache::DBI
+
+App::Ack
 
 Class::Null
 
@@ -73,6 +75,8 @@ Date::Parse
 
 Digest::SHA1
 
+Dist::Joseki
+
 Email::Valid
 
 Error
@@ -93,6 +97,14 @@ Mail::Cap
 
 Mail::Field::Received
 
+Module::Install
+
+Module::AutoInstall
+
+Module::Install::StandardTests
+
+Module::Install::Template
+
 Net::DNS
 
 Net::IP
@@ -100,6 +112,8 @@ Net::IP
 Net::SSH
 
 Net::Server::Mail
+
+Pod::Generated
 
 RPC::XML
 
@@ -122,6 +136,12 @@ Test::Differences
 Test::Exception
 
 Test::More
+
+Test::Compile
+
+Test::Pod
+
+Test::Pod::Coverage
 
 Test::utf8
 
@@ -154,7 +174,7 @@ please use the C<bundlenicat> tag.
 
 =head1 VERSION 
                    
-This document describes version 0.01 of L<Bundle::NICAT>.
+This document describes version 0.02 of L<Bundle::NICAT>.
 
 =head1 BUGS AND LIMITATIONS
 

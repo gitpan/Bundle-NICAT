@@ -4,6 +4,14 @@ global:
 releases:
   - author: 'Marcel Gruenauer <marcel@cpan.org>'
     changes:
+      - set the version to 0.02
+      - 'added basic distribution-building tools like Dist::Joseki, Module::Install and so on'
+      - 'added App::Ack, Module::Install::Template, Pod::Generated'
+    date: 2007-11-28T22:18:02Z
+    tags: []
+    version: 0.02
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
       - original version
     date: 2007-11-28T10:37:38Z
     tags: []
