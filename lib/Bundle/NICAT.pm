@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 1;
@@ -31,10 +31,6 @@ company who maintains the .at zone, nic.at.
 
 =head1 CONTENTS
 
-mod_perl2
-
-Apache2::SOAP
-
 Apache::DBI
 
 App::Ack
@@ -54,8 +50,6 @@ Crypt::OpenPGP
 Crypt::OpenSSL::X509
 
 DBI
-
-DBD::Oracle
 
 DNSCheck
 
@@ -117,7 +111,7 @@ Pod::Generated
 
 RPC::XML
 
-SOAP::Transport::HTTP2::Apache
+SOAP::Transport::HTTP2
 
 Socket6
 
@@ -161,8 +155,6 @@ XML::Twig
 
 XML::XPath
 
-XML::Xerces
-
 YAML
 
 YAML::Active
@@ -174,7 +166,7 @@ please use the C<bundlenicat> tag.
 
 =head1 VERSION 
                    
-This document describes version 0.02 of L<Bundle::NICAT>.
+This document describes version 0.03 of L<Bundle::NICAT>.
 
 =head1 BUGS AND LIMITATIONS
 
@@ -200,7 +192,7 @@ Marcel GrE<uuml>nauer, C<< <marcel@cpan.org> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2007 by Marcel GrE<uuml>nauer
+Copyright 2007-2008 by Marcel GrE<uuml>nauer
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

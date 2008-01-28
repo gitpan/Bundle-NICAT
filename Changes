@@ -4,6 +4,14 @@ global:
 releases:
   - author: 'Marcel Gruenauer <marcel@cpan.org>'
     changes:
+      - set the version to 0.03
+      - removed Apache2::SOAP and fixed SOAP::Transport::HTTP2
+      - 'removed mod_perl 2, DBD::Oracle, XML::Xerces from the bundle; added notes'
+    date: 2008-01-28T14:21:48Z
+    tags: []
+    version: 0.03
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
       - set the version to 0.02
       - 'added basic distribution-building tools like Dist::Joseki, Module::Install and so on'
       - 'added App::Ack, Module::Install::Template, Pod::Generated'

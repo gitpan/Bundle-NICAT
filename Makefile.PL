@@ -1,4 +1,18 @@
 use inc::Module::Install;
+
+print <<EOTEXT;
+
+******************************************************************************
+Other distributions might be needed as well, but they are not inclued in the
+bundle.
+
+- mod_perl 2: not everyone needs this
+- DBD::Oracle: this needs manual configuration
+- XML::Xerces: this needs manual configuration
+******************************************************************************
+
+EOTEXT
+
 include 'Module::AutoInstall';
 
 name 'Bundle-NICAT';
