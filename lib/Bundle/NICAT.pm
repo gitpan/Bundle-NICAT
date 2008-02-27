@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 
 1;
@@ -46,8 +46,6 @@ Class::Value::Contact
 Class::Value::Net
 
 DBI
-
-DNSCheck
 
 Data::Container
 
@@ -162,7 +160,7 @@ please use the C<bundlenicat> tag.
 
 =head1 VERSION 
                    
-This document describes version 0.04 of L<Bundle::NICAT>.
+This document describes version 0.05 of L<Bundle::NICAT>.
 
 =head1 BUGS AND LIMITATIONS
 
