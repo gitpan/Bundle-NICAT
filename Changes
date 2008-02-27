@@ -4,6 +4,13 @@ global:
 releases:
   - author: 'Marcel Gruenauer <marcel@cpan.org>'
     changes:
+      - set the version to 0.04
+      - removed Crypt::OpenPGP and Crypt::OpenSSL::X509 as those aren't necessary in current registry implementations
+    date: 2008-02-27T13:55:14Z
+    tags: []
+    version: 0.04
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
       - set the version to 0.03
       - removed Apache2::SOAP and fixed SOAP::Transport::HTTP2
       - 'removed mod_perl 2, DBD::Oracle, XML::Xerces from the bundle; added notes'

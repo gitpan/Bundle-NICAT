@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 
 1;
@@ -44,10 +44,6 @@ Class::Value
 Class::Value::Contact
 
 Class::Value::Net
-
-Crypt::OpenPGP
-
-Crypt::OpenSSL::X509
 
 DBI
 
@@ -166,7 +162,7 @@ please use the C<bundlenicat> tag.
 
 =head1 VERSION 
                    
-This document describes version 0.03 of L<Bundle::NICAT>.
+This document describes version 0.04 of L<Bundle::NICAT>.
 
 =head1 BUGS AND LIMITATIONS
 
